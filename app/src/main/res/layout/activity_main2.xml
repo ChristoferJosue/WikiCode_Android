@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#313435"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnAtras"
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/klipartz_com" />
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/c2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="200dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/c" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity2">
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Lenguaje C"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="@color/design_default_color_background"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/design_default_color_background"
+                android:layout_marginRight="20dp"
+                android:text="Origen del Lenguaje C"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/contenidoOrigen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Tenemos que viajar hasta 1972 para ver el nacimiento del lenguaje de programación C (y el sistema operativo UNIX)  de la mano del científico informático estadounidense Dennis Ritchie (con la ayuda de Ken Thompson). Recibió el nombre de C simplemente por una cuestión alfabética, ya que sustituyó a sus lenguajes predecesores B y BCPL que codificaban la minicomputadora PDP-7. El desarrollo del lenguaje C toma protagonismo para la creación del sistema operativo UNIX que llevarían consigo los nuevos minicomputadores PDP-11, primeros en conectar el procesador, los periféricos y la memoria entre sí mediante un BUS bidireccional.                                "
+                android:textAlignment="gravity"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Subtitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/design_default_color_background"
+                android:text="Características del lenguaje C"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/contenidoCaracteristicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:text="1. Estructura de C - Lenguaje estructurado. \n2. Programación de nivel medio (beneficiándose de las ventajas de la programación de alto y bajo nivel).\n3. No depende del hardware, por lo que se puede migrar a otros sistemas. \n 4. Objetivos generales. No es un lenguaje para una tarea específica, pudiendo programar tanto un sistema operativo, una hoja de cálculo o un juego.\n5. Ofrece un control absoluto de todo lo que sucede en el ordenador.\n6. Organización del trabajo con total libertad.\n7. Los programas son producidos de forma rápida y son bastante potentes.\n8. Rico en tipo de datos, operadores y variables en C.                      "
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/Subtitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_background"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Ejemplo de programación en c "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btnEjemploc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitCenter"
+
+                app:srcCompat="@drawable/cholamundo" />
+            <TextView
+                android:id="@+id/Subtitulo4"
+                android:layout_width="match_parent"
+                android:textColor="@color/design_default_color_background"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Tipos de datos "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/contenidoTipoDeDatosC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:text="1. Char\n2. Short\n3. int \n4. long\n5. long long\n6. float\n7. double "
+                android:layout_marginRight="20dp"
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

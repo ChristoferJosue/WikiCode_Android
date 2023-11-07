@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:background="#313435"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/btnAtras"
+        android:layout_width="91dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/klipartz_com" />
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/d2" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/d" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity2">
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Lenguaje C#"
+                android:textColor="@color/design_default_color_background"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Origen del Lenguaje C#"
+                android:textColor="@color/design_default_color_background"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/contenidoOrigen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:text="C# es un lenguaje de programación desarrollado por Microsoft en el año 2000 como parte de su plataforma .NET. Fue diseñado por Anders Hejlsberg y tomó influencias de C++ y Java. Se lanzó oficialmente en 2000 como parte de Visual Studio .NET y se ha convertido en un lenguaje ampliamente utilizado en el desarrollo de aplicaciones en el ecosistema Windows y más allá.                                             "
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Subtitulo2"
+                android:textColor="@color/design_default_color_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Características del lenguaje C#"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/contenidoCaracteristicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:text="1. Orientación a objetos: C# es un lenguaje orientado a objetos en el que todo se modela como objetos. Permite la encapsulación, herencia y polimorfismo, lo que facilita la construcción de software modular y estructurado. \n2. Type Safety: C# es un lenguaje fuertemente tipado, lo que significa que las variables deben tener tipos definidos y compatibles. Esto reduce los errores de tiempo de ejecución.\n3. Type Safety: C# es un lenguaje fuertemente tipado, lo que significa que las variables deben tener tipos definidos y compatibles. Esto reduce los errores de tiempo de ejecución. \n4. Biblioteca de Clases de .NET: C# se beneficia de la amplia Biblioteca de Clases de .NET, que proporciona un conjunto extenso de clases y bibliotecas predefinidas para realizar tareas comunes, como manipulación de archivos, redes, seguridad y más.\n5. Lenguaje de programación moderno: C# sigue evolucionando con el tiempo, incorporando características modernas como async/await para programación asincrónica, expresiones lambda, inferencia de tipos, etc. \n6. Seguridad: C# incluye características de seguridad, como el manejo de excepciones, lo que ayuda a escribir código más robusto y seguro.\n7. Multiplataforma: Con el proyecto .NET Core (ahora conocido como .NET 5 y posteriores), C# se ha vuelto más multiplataforma, permitiendo el desarrollo en sistemas Windows, Linux y macOS.\n8. Administración de memoria: A diferencia de lenguajes como C++, C# gestiona la memoria automáticamente a través del recolector de basura (garbage collector), lo que evita las fugas de memoria y simplifica el desarrollo.\n9. Linq (Language Integrated Query): C# incluye Linq, que proporciona una forma eficiente y legible de consultar colecciones de datos utilizando sintaxis similar a SQL.\n10. Soporte para desarrollo web y móvil: C# se utiliza en el desarrollo de aplicaciones web a través de ASP.NET y en el desarrollo móvil mediante herramientas como Xamarin, que permite escribir aplicaciones móviles nativas en C#.\n11. Comunidad y herramientas: C# tiene una comunidad activa de desarrolladores y una amplia gama de herramientas de desarrollo, como Visual Studio, que facilitan la creación de aplicaciones en C#.                     "
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/Subtitulo3"
+                android:layout_width="match_parent"
+                android:textColor="@color/design_default_color_background"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Ejemplo de programación en c# "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Ejemploc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/csharpholamundo" />
+            <TextView
+                android:id="@+id/Subtitulo4"
+                android:textColor="@color/design_default_color_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Tipos de datos "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/contenidoTipoDeDatosC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:text="* int\n* uint\n* long \n* ulong\n* short\n* ushort\n*. byte\n* sbyte\n* float\n* double \n* decimal \n* char\n* string \n* bool \n* Datetime\n* TimeSpan\n* struct\n* class\n* interface\n* array\n* object\n* dynamic"
+                android:layout_marginRight="20dp"
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

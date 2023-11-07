@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313435"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/Theme.MyApplication"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnAtras"
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/klipartz_com" />
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/java" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/j" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity2">
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Lenguaje Java"
+                android:textAlignment="center"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Origen del Lenguaje Java"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/contenidoOrigen"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+
+                android:text="El lenguaje de programación Java fue creado por James Gosling y su equipo en Sun Microsystems en la década de 1990. Su principal objetivo era la portabilidad, permitiendo que el código Java se ejecutara en diferentes plataformas sin modificaciones. Esto se logra mediante la Java Virtual Machine (JVM), que traduce el código Java en bytecode ejecutable en cualquier plataforma compatible con JVM. Java se diseñó inicialmente para dispositivos electrónicos y aplicaciones integradas, pero su versatilidad lo llevó a ser ampliamente utilizado en el desarrollo de software empresarial, aplicaciones web, aplicaciones móviles (Android) y más. Java sigue siendo uno de los lenguajes de programación más populares debido a su robustez y seguridad, y ha evolucionado con el tiempo para adaptarse a las necesidades cambiantes de la industria de la tecnología.                               "
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Subtitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Características del lenguaje Java"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/contenidoCaracteristicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+
+                android:text="1. Portabilidad\n2. Orientación a Objetos\n3. Seguridad\n4. Multiplataforma\n5. Robustez\n6. Administración automática de memoria\n7. Biblioteca estándar rica\n8. Herramientas de desarrollo sólidas\n9. Soporte para programación en red\n10. Comunidad activa\n11. Plataforma Android\n12. Evolución continua                       "
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Subtitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Ejemplo de programación en Java"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Ejemplojava"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/javaholamundo" />
+
+            <TextView
+                android:id="@+id/Subtitulo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Tipos de datos "
+                android:textAlignment="viewEnd"
+                android:textColor="@color/design_default_color_background"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/contenidoTipoDeDatosC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:text="1. Char\n2. Short\n3. int \n4. long\n5. boolean\n6. float\n7. double\n8. String\n9. Byte "
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

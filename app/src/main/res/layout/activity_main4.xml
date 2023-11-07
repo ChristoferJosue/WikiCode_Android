@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="#313435"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btnAtras"
+        android:layout_width="91dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/klipartz_com" />
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/python" />
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/p"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity2">
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Lenguaje Python"
+                android:textColor="@color/design_default_color_background"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Subtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/design_default_color_background"
+                android:text="Origen del Lenguaje Python"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/contenidoOrigen"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="Python es un lenguaje de programación creado por Guido van Rossum en la década de 1980, enfocado en la legibilidad y simplicidad del código. Su nombre proviene de la serie Monty Python. A lo largo de los años, Python ha ganado gran popularidad en aplicaciones como desarrollo web, análisis de datos y aprendizaje automático. Su comunidad activa ha contribuido al crecimiento de bibliotecas y marcos de trabajo. Python es versátil y ampliamente utilizado en diversos campos, desde programación de scripts hasta inteligencia artificial. Su lema es el Zen de Python. Su simplicidad lo hace fácil de aprender y utilizar, lo que ha contribuido a su éxito duradero."
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Subtitulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_background"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Características del lenguaje Python"
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/contenidoCaracteristicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:text="1. Legibilidad del código: Python se destaca por su sintaxis limpia y legible, lo que facilita la escritura y comprensión del código. Se asemeja al lenguaje humano.\n2. Simplicidad: Python se enfoca en la simplicidad y minimiza la complejidad, lo que lo convierte en un lenguaje accesible para programadores de todos los niveles.\n3. Multiparadigma: Python admite múltiples estilos de programación, incluyendo programación orientada a objetos, programación imperativa y programación funcional. \n 4. Amplia biblioteca estándar: Python ofrece una extensa biblioteca estándar que incluye módulos y paquetes para realizar una variedad de tareas, desde trabajar con archivos hasta interactuar con redes.\n5. Portabilidad: Python es compatible con una amplia gama de plataformas y sistemas operativos, lo que facilita la portabilidad de código.\n6. Comunidad activa: Python cuenta con una comunidad de desarrollo activa que contribuye con bibliotecas y marcos de trabajo de código abierto, lo que amplía sus capacidades.\n7. Integración: Python se integra fácilmente con otros lenguajes de programación, como C, C++, y Java, lo que lo hace útil para aplicaciones de sistemas y desarrollo web.\n8. Aplicaciones diversas: Python se utiliza en una variedad de aplicaciones, desde desarrollo web y análisis de datos hasta inteligencia artificial, aprendizaje automático, automatización y scripting.                 "
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/Subtitulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/design_default_color_background"
+                android:text="Ejemplo de programación en Python "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/Ejemplopython"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pythonholamundo" />
+            <TextView
+                android:id="@+id/Subtitulo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_background"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:text="Tipos de datos "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/contenidoTipoDeDatosC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:text="1. entero\n2. flotante\n3. cadena \n4. listas\n5. tuplas\n6. diccionario\n7. conjuntos\n8. booleanos "
+                android:layout_marginRight="20dp"
+                android:textAlignment="gravity"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
